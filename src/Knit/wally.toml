@@ -1,0 +1,12 @@
+[package]
+name = "kumarion/knit-rojo"
+description = "Modified version of Knit that makes accessing ServerPackages, Shared folders and Packages folders easier."
+version = "0.2.0"
+license = "MIT"
+authors = ["Sleitnick (https://github.com/Sleitnick)", "Kumarion (https://github.com/Kumarion)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Comm = "sleitnick/comm@^0.3"
+Promise = "evaera/promise@^4"
