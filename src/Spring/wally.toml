@@ -1,0 +1,8 @@
+[package]
+name = "kumarion/spring"
+description = "Forked from https://github.com/Fraktality/spr."
+version = "0.0.1"
+license = "MIT"
+authors = ["Fraktality (https://github.com/Fraktality)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"

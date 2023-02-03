@@ -1,0 +1,8 @@
+[package]
+name = "kumarion/module3d"
+description = "Forked from Module3D by TheNexusAvenger."
+version = "0.0.1"
+license = "MIT"
+authors = ["TheNexusAvenger (https://github.com/TheNexusAvenger)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
