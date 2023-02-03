@@ -1,0 +1,8 @@
+[package]
+name = "kumarion/formatnumber"
+description = "Forked from FormatNumber by Blockzez."
+version = "0.0.1"
+license = "MIT"
+authors = ["Blockzez (https://github.com/Blockzez)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
