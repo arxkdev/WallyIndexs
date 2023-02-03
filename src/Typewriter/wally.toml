@@ -1,0 +1,8 @@
+[package]
+name = "kumarion/typewriter"
+description = "Forked from Roblox documentation. Modified by me."
+version = "0.0.2"
+license = "MIT"
+authors = ["Roblox", "Kumarion (https://github.com/Kumarion)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
