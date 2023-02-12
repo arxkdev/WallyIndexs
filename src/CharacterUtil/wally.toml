@@ -1,0 +1,11 @@
+[package]
+name = "kumarion/characterutil"
+description = "A library for character utilities."
+version = "0.0.1"
+license = "MIT"
+authors = ["Kumarion (https://github.com/Kumarion)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Promise = "evaera/promise@^4"
