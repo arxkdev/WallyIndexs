@@ -1,7 +1,7 @@
 [package]
 name = "kumarion/replicatedtween"
 description = "Modified version of ReplicatedTween, which was originally based off of SteadyOn's TweenService2"
-version = "0.0.1"
+version = "0.0.2"
 license = "MIT"
 authors = ["Kumarion (https://github.com/Kumarion)"]
 registry = "https://github.com/UpliftGames/wally-index"

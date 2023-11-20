@@ -1,0 +1,8 @@
+[package]
+name = "kumarion/icon"
+description = "Forked from Icon by ForeverHD. Latest version."
+version = "0.0.2"
+license = "MIT"
+authors = ["ForeverHD (https://github.com/ForeverHD)"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"

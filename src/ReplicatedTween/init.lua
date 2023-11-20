@@ -245,8 +245,13 @@ function ReplicatedTween:Pause()
 end
 
 function ReplicatedTween:Play(specificClient)
-	tweenEvent:FireAllClients("Play", self.UniqueId, {self.Instance, tweenInfoConvert(self.TweenInfo), self.PropertyTable});
-	self.__resumeTimer();
+	if (specificClient) then
+		tweenEvent:FireClient(specificClient, "Play", self.UniqueId, {self.Instance, tweenInfoConvert(self.TweenInfo), self.PropertyTable});
+		self.__resumeTimer();
+	else
+		tweenEvent:FireAllClients("Play", self.UniqueId, {self.Instance, tweenInfoConvert(self.TweenInfo), self.PropertyTable});
+		self.__resumeTimer();
+	end;
 end
 
 function ReplicatedTween:Destroy()
